@@ -1,0 +1,47 @@
+body {
+  background-color: #1e1f1c;
+}
+
+body p {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+body .button1 {
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+body .button1 p {
+  text-align: center;
+  padding-top: 120px;
+  font-size: 30px;
+  color: black;
+}
+
+body .button2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .button2 div {
+  background-color: green;
+  height: 100px;
+  min-width: 300px;
+  margin-top: 100px;
+}
+
+body .button2 div p {
+  text-align: center;
+  padding-top: 5px;
+  font-size: 20px;
+  color: white;
+}
+/*# sourceMappingURL=Style.css.map */

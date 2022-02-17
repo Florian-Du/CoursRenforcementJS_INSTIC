@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(30, 31, 28);
+    p {
+        color: white;
+        text-align: center;
+        font-size: 30px;
+    }
+    .button1 {
+        background-color: white;
+        width: 300px;
+        height: 300px;
+        margin-left: 100px;
+        margin-top: 100px;
+        p {
+            text-align: center;
+            padding-top: 120px;
+            font-size: 30px;
+            color: black;
+        }
+    }
+    .button2 {
+        display: flex;
+        justify-content: space-around;
+        div {
+            background-color: green;
+            height: 100px;
+            min-width: 300px;
+            margin-top: 100px;
+            p {
+                text-align: center;
+                padding-top: 5px;
+                font-size: 20px;
+                color: white;
+            }
+        }
+    }
+}
